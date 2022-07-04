@@ -7,6 +7,9 @@ const CONFIRM_MESSAGE = 'Are you sure you want to delete the score?'
 const ScoreCard = ({ id, playedAt, totalScore, userId, userName }) => {
   const { deleteScore } = useScoreDelete(id)
 
+  console.log(getUserId())
+  console.log(userId)
+
   return (
     <div className="flex flex-row p-3 my-4 shadow-md lg:w-1/3 md:w-1/2">
       <div className="w-5/6">

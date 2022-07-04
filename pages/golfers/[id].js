@@ -21,7 +21,7 @@ const GolferPage = () => {
                 id={score.id}
                 totalScore={score.total_score}
                 playedAt={score.played_at}
-                userId={score.id}
+                userId={score.user_id}
                 userName={score.user_name}
               />
             ))}
